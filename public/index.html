@@ -86,6 +86,34 @@
 		}
 
 		@media (max-width: 600px) {
+			/* Safari ignores max-width on tables: force the header to fit the screen */
+			table {
+				width: 100% !important
+			}
+
+			table td {
+				width: auto;
+				vertical-align: middle
+			}
+
+			table td:first-child {
+				display: none
+			}
+
+			img.profile {
+				width: 96px;
+				height: 121px;
+				margin-right: 14px
+			}
+
+			.name {
+				font-size: 13pt
+			}
+
+			.detail {
+				font-size: 11pt
+			}
+
 			body > ul {
 				padding-left: 18px
 			}
@@ -99,12 +127,6 @@
 </head>
 
 <body>
-	<p>
-		<br />
-		<br />
-		<br />
-		<br />
-	</p>
 	<table cellpadding="0" cellspacing="0" width="689">
 		<tr>
 			<td width="14">
