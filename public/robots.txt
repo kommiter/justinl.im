@@ -1,0 +1,4 @@
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://justinl.im/sitemap.xml
