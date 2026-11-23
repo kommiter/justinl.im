@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "justinlim",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "justinl.im", "custom_domain": true },
+    { "pattern": "www.justinl.im", "custom_domain": true }
+  ]
+}
